@@ -239,7 +239,33 @@ a multi line comment"""
 # print(n%10,n%100//10,n//100)
 # n=str(input("Enter a number: "))
 # print(len(n))
-a='yashvardhan'
-print(a[1])
-for i in a:
-    print(i)
+# a='yashvardhan'
+# print(a[1])
+# for i in a:
+#     print(i)
+# print(a[-1:0:-1])
+# print(a[::-1])
+# print(a[-1::-1])
+# print(a[-1:0])
+# a=10
+# b=20
+# sum=a+b
+# print(f"sum of {a} and {b} is : {sum}")#f function
+# print("sum is {}".format(sum))# format function
+# print("sum of {} and {} is {}".format(a,b,sum))#format function with multiple placeholders
+# print("sum of {1} and {0} is {2}".format(a,b,sum))#format function with indexes
+'''list'''
+a=[1,2,3,4,5]
+print(type(a) , a)
+a[2]=10 #modifying an element of the list
+a.append(6) #adding an element to the end of the list
+print(a)
+print(a[::2])
+a.sort(reverse=True) #sorting the list in ascending order
+print(a) #sorting the list in descending order
+a.insert(2,15) #inserting an element at a specific index
+print(a)
+a.remove(15) #removing an element from the list
+print(a)
+a.pop(2) #removing an element from a specific index
+print(a)
