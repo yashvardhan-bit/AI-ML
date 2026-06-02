@@ -300,7 +300,50 @@ d={
     "city":"pilani",
     "marks":[90,95,85]
 }
-print(type(d), d)
-print(d["name"]) #accessing a value using its key
-d["age"]=20 #modifying a value using its key
-print(d)
+# print(type(d), d)
+# print(d["name"]) #accessing a value using its key
+# d["age"]=20 #modifying a value using its key
+# print(d)
+# print(d.keys()) #returns all the keys of the dictionary
+# print(d.values()) #returns all the values of the dictionary
+# print(d.items()) #returns all the key-value pairs of the dictionary
+# print(d.get("name")) #returns the value of the specified key
+# d.update({"name":"yash"})
+# print(d.get("name")) #returns the updated value of the specified key
+'''sets'''
+a={1,2,2,3,4,4,5}
+# print(type(s), s) #sets do not allow duplicate values
+# a={}
+# print(type(a), a) #this is an empty dictionary, not an empty set
+# a=set ()
+# print(type(a), a) #this is an empty set
+ # a.add(1) #adding an element to the set
+# print(a)
+# a.remove(1) #removing an element from the set
+# print(a)
+# a.pop() #removing random element
+# print(a)
+# a.clear() #removing all elements from the set
+# print(a)
+# a={1,2,3,4,5}
+# b={4,5,6,7,8}
+# print(a.union(b))  #returns a new set that contains all the elements of both sets
+# print(a.intersection(b)) #returns a new set that contains only the common elements of both sets
+# print(a.difference(b)) #returns a new set that contains only the elements that are in
+info={
+    ("Alice","Math"),
+    ("Bob","Science"),
+    ("Alice","Science"),
+    ("Charlie","Math"),
+    ("Bob","Math"),
+    ("Alice","English"),
+    ("Charlie","English"),
+}
+unique_courses=set()
+for tup in info:
+    unique_courses.add(tup[1]) #tup[1] is the course name
+print(unique_courses)
+for name, courses in info:#unpacking the tuple into name and courses
+    # print(name, courses)
+    if courses=="English":
+        print(name)
