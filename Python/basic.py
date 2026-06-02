@@ -339,11 +339,19 @@ info={
     ("Alice","English"),
     ("Charlie","English"),
 }
-unique_courses=set()
-for tup in info:
-    unique_courses.add(tup[1]) #tup[1] is the course name
-print(unique_courses)
-for name, courses in info:#unpacking the tuple into name and courses
-    # print(name, courses)
-    if courses=="English":
-        print(name)
+# unique_courses=set()
+# for tup in info:
+#     unique_courses.add(tup[1]) #tup[1] is the course name
+# print(unique_courses)
+# for name, courses in info:#unpacking the tuple into name and courses
+#     # print(name, courses)
+#     if courses=="English":
+#         print(name)
+dict={}
+for name, course in info:
+    if dict.get(name) is None:
+        dict.update({name:set()})
+        dict[name].add(course)
+    else:
+        dict[name].add(course)
+print(dict)
