@@ -347,11 +347,48 @@ info={
 #     # print(name, courses)
 #     if courses=="English":
 #         print(name)
-dict={}
-for name, course in info:
-    if dict.get(name) is None:
-        dict.update({name:set()})
-        dict[name].add(course)
-    else:
-        dict[name].add(course)
-print(dict)
+# dict={}
+# for name, course in info:
+#     if dict.get(name) is None:
+#         dict.update({name:set()})
+#         dict[name].add(course)
+#     else:
+#         dict[name].add(course)
+# print(dict)
+'''oop'''
+'''class'''
+# class student:
+#     subject="python"
+#     college="bkbirla college"
+#     year="fourth"
+# a=10
+# stu1=student()
+# stu2=student() #creating an object of the student class
+# print(stu1) #accessing the class variable using the object
+# print(stu2.subject,stu2.college,stu2.year) #accessing the class variable using the object
+# class student:
+#     def __init__(self):
+#         print("constructor called")
+# stu1=student() #constructor is called when an object is created
+# stu2=student() #constructor is called when an object is
+# class student:
+#     college="bkbirla college" #class variable
+#     def __init__(self,name,cgpa):
+#         self.name=name #instance variable
+#         self.cgpa=cgpa #instance variable
+#     def get_cgpa(self):
+#         return self.cgpa
+# st1=student("yash",8.5) #constructor is called when an object is created
+# print(st1.name,st1.cgpa) #accessing the instance variable using the object
+# print(st1.get_cgpa()) #accessing the instance variable using the method
+# print(student.college) #accessing the class variable using the class name
+# print(st1.college) #accessing the class variable using the object
+# class laptop:
+#     storage_type="SSD"
+#     def __init__(self,RAM,storage):
+#         self.RAM=RAM
+#         self.storage=storage
+#     def get_info(self):
+#         print(f"laptop has {self.RAM} GB RAM and {self.storage} GB storage {self.storage_type}")
+# l1=laptop(16,512)
+# l1.get_info()
