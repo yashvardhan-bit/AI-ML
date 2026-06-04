@@ -109,4 +109,21 @@
 # lion=Lion()
 # lion.make_sound()
 '''4.polymorphism'''
-'''ability of an object to take many forms'''
+# class Shape:
+#     def area(self):
+#         print("area of shape")
+# class Circle(Shape):
+#     def area(self):#function overriding
+#         print("area of circle is pi*r^2")
+# s1=Circle()
+# s1.area()
+# class Employee:
+#     def get_designation(self):
+#         print("employee designation")
+# class Acountant():
+#     def get_designation(self):
+#         print("accountant designation")
+# t1=Employee()
+# t2=Acountant()
+# t1.get_designation() #employee designation
+# t2.get_designation() #accountant designation
