@@ -392,3 +392,51 @@ info={
 #         print(f"laptop has {self.RAM} GB RAM and {self.storage} GB storage {self.storage_type}")
 # l1=laptop(16,512)
 # l1.get_info()
+# try:
+#     x= int(input("Enter a value: "))
+#     ans=10/x
+# except ZeroDivisionError:
+#     print("not divisible by zero")
+# except ValueError:
+#     print("invalid input")
+# else:
+#     print(ans)
+# finally:
+#     print("end of program")
+# squares=[]
+# print(type(squares))
+# for i in range(6):
+#     squares.append(i**2)
+# print(squares)
+# sq=[i*i for i in range(6) if i%2!=0]
+# print(sq)
+# a=[-2,-4,-3,5,2,-1]
+# a=[0 if i<0 else i for i in a]
+# print(a)
+# words=["hello","world","python"]
+# words=[word.upper() for word in words] # change the words to uppercase
+# print(words)
+# import json
+# json_str='{"name":"yash","age":21,"is_sigma":true}'
+# print(type(json_str))
+# py_obj=json.loads(json_str)
+# print(type(py_obj),py_obj)
+# import json
+# py_obj={
+#     "name":"yash",
+#     "age":21,
+#     "is_sigma":True,
+#     "aura_lost":None
+# }
+# json_str=json.dumps(py_obj)
+# print(type(json_str),json_str)
+# import json
+# d={
+#     "name":"yash",
+#     "age":21,
+#     "is_sigma":True
+# }
+# with open("data.json","w") as f:
+#     # py_obj=json.load(f)
+#     # print(type(py_obj),py_obj)
+#     json.dump(d,f,indent=4,sort_keys=True)
