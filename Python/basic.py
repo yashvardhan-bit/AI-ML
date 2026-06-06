@@ -404,7 +404,7 @@ info={
 # finally:
 #     print("end of program")
 # squares=[]
-# print(type(squares))
+# print(type(squares)) #
 # for i in range(6):
 #     squares.append(i**2)
 # print(squares)

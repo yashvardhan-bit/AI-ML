@@ -14,4 +14,3 @@ with open("sample.txt","r") as f:
             print("present in line ", line)
             break
         line+=1
-
