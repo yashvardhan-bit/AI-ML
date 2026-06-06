@@ -12,5 +12,5 @@ with open("sample.txt","r") as f:
         data=f.readline()
         if "python" in data:
             print("present in line ", line)
-            break
+            break  
         line+=1
