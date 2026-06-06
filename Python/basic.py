@@ -428,15 +428,15 @@ info={
 #     "is_sigma":True,
 #     "aura_lost":None
 # }
-# json_str=json.dumps(py_obj)
-# print(type(json_str),json_str)
-# import json
-# d={
+# json_str=json.dumps(py_obj) 
+# print(type(json_str),json_str) 
+# import json 
+# d={  
 #     "name":"yash",
-#     "age":21,
+#     "age":21,a
 #     "is_sigma":True
 # }
-# with open("data.json","w") as f:
+# with open("data.json","w") as f: 
 #     # py_obj=json.load(f)
 #     # print(type(py_obj),py_obj)
 #     json.dump(d,f,indent=4,sort_keys=True)  
