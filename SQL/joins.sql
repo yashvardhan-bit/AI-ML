@@ -67,7 +67,7 @@ ON c.customer_id=o.customer_id;
 SELECT *
 FROM customers
 CROSS JOIN orders;
-
+ 
 # SELF JOIN (ON SAME TABLE)
 SELECT *
 FROM customers as A

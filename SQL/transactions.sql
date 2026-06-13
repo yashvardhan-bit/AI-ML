@@ -14,7 +14,7 @@ INSERT INTO accounts(name,balance)  VALUES
 ('Charlie',1000.00);
 
 SELECT * FROM accounts;
-
+ 
  #TRANSACTIONS START
  
  START TRANSACTION;

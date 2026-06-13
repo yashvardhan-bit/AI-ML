@@ -42,7 +42,7 @@ VALUES
 (112,"Duke","Pune",80);
 
 SELECT * FROM student;
-
+ 
 SELECT *
 FROM student
 WHERE marks>75;

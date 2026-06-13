@@ -62,3 +62,52 @@ WHERE AGE>14;
 SELECT age, max(followers)
 FROM user
 GROUP BY age;
+
+#HAVING clause (on groups)
+SELECT age,max(following)
+FROM user
+GROUP BY age
+HAVING max(following)>200
+ORDER BY age DESC;
+#(grouping is necessary for having clause)
+
+#UPDATE
+UPDATE user
+SET followers=600
+WHERE age=14;
+
+SET SQL_SAFE_UPDATES=0;
+
+SELECT * FROM user;
+
+DELETE FROM user
+WHERE age=14;
+
+#ALTER
+ALTER TABLE user
+ADD COLUMN city VARCHAR(24) DEFAULT "Delhi";
+SELECT * FROM user;
+
+ALTER TABLE user
+DROP COLUMN city;
+SELECT * FROM user;
+
+ALTER TABLE insta_user
+RENAME TO user;
+SELECT * FROM insta_user;
+
+ALTER TABLE user
+CHANGE COLUMN followers subs INT DEFAULT 0;
+
+SELECT * FROM user;
+
+ALTER TABLE user
+MODIFY subs INT DEFAULT 5;
+INSERT INTO user (Id, Age, Name, Email, Subs, Following)
+VALUES (6, 32, "yo yo", "honeypaaji.com", DEFAULT, 23);
+SELECT * FROM user;
+
+DROP TABLE post;
+TRUNCATE TABLE user;
+DROP TABLE user;
+
