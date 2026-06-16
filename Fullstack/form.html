@@ -3,20 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forms</title>
+    <title>Form</title>
 </head>
 <body>
-    <form action="/action">
-        username
-        <input type="text"><br>
-        password
-        <input type="password"><br>
-        time
-        <input type="time"><br>
-        color
-        <input type="color"><br>
-        number
-        <input type="number">
-    </form>
+   <form action="/server">
+    <div><label for="username">Username</label><input type="text" placeholder="username" id="username" name="usernames"></div>
+    <div><label for="password">password</label><input type="password" id="password" name="passwords" placeholder="password"></div>
+    <button>submit</button>
+   </form>
+   <hr>
+   <form action="https://www.youtube.com/results">
+    <label for="search">Search on yt through here
+    <input type="text" name="search_query" id="search">
+    </label><br>
+    <button type="submit">search</button>
+   </form>
+   <hr>
+   <form action="https://www.google.com/search">
+    <label for="search">search
+        <input type="text" name="q" id="search" placeholder="search google">
+    </label>
+    <button>submit</button>
+   </form>
 </body>
 </html>
