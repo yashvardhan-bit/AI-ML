@@ -7,6 +7,9 @@
 </head>
 <body>
    <form action="/server">
+        
+    <input type="checkbox" id="age" name="age" checked >
+    <label for="age">I am 18+</label>
     <div><label for="username">Username</label><input type="text" placeholder="username" id="username" name="usernames"></div>
     <div><label for="password">password</label><input type="password" id="password" name="passwords" placeholder="password"></div>
     <button>submit</button>
@@ -25,5 +28,48 @@
     </label>
     <button>submit</button>
    </form>
+   <form action="/server">
+    <!-- radio buttons -->
+     <input type="radio" name="fruit" id="apple" value="apple">
+     <label for="apple">Apple</label>
+     <input type="radio" name="fruit" id="banana" value="banana">
+     <label for="banana">Banana</label>
+     <label for="Mango">Mango</label>
+     <input type="radio" name="fruit" id="Mango" value="Mango">
+     <button>submit</button>
+   </form>
+   <hr>
+   <form action="/server">
+    <div>
+    <label for="math">math<input type="checkbox" id="math" name="subjects" value="mathematics">
+    </label><br>
+    <label for="eng">english<input type="checkbox" id="eng" name="subjects" value="english">
+    </label><br>
+    <label for="hin">hindi<input type="checkbox" id="hin" name="subjects" value="hindi">
+    </label>
+    </div>
+    <button>submit</button>
+   </form>
+   <!-- dropdown -->
+    <h2>choose your profession</h2>
+    <form action="/option selected">
+        <select name="profession" id="profession">
+            <option value="None">select</option>
+            <option value="student">Stuent</option>
+            <option value="dev">developer</option>
+            <option value="bad">badmosh</option>
+            <option value="bella">freelance</option>
+        </select>
+        <label for="vol"></label>
+        <input type="range" name="volume is" id="vol" min="0" max="100" step="2" value="67">
+        <button>submit</button>
+    </form><hr>
+    <form action="/text area">
+        <label for="txt"> feedback<br>
+        <textarea name="Feedback" id="txt" placeholder="let us know gng" rows="25" cols="25"></textarea>
+        </label><br>
+        <button>submit feedback</button>
+    </form>
+
 </body>
 </html>
