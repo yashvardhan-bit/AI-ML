@@ -1,59 +1,59 @@
-# print("HELLO WORLD")
-# print("hello world\t sup!")
-# name = "Yashvardhan"
-# print("my name is", name)
-# print(type(name))
-# num=6
-# isPrime=None
-# print(num)
-# print(type(isPrime))
-# print(isPrime)
-#it is a single line comment
+print("HELLO WORLD")
+print("hello world\t sup!")
+name = "Yashvardhan"
+print("my name is", name)
+print(type(name))
+num=6
+isPrime=None
+print(num)
+print(type(isPrime))
+print(isPrime)
+it is a single line comment
 """this is 
 a multi line comment"""
-# a=2
-# b=3
-# print(a+b)
-# print(a%b) #modulo operator gives the remainder
-# print(a**b) #exponentiation operator
-# print(a//b) #floor division operator
-# print(a==b) #comparison operator
-# print(a!=b)#not equal to operator
-# print(a>b)
-# print(a<b)
-# print(a>=b)
-# print(a<=b)
+a=2
+b=3
+print(a+b)
+print(a%b) #modulo operator gives the remainder
+print(a**b) #exponentiation operator
+print(a//b) #floor division operator
+print(a==b) #comparison operator
+print(a!=b)#not equal to operator
+print(a>b)
+print(a<b)
+print(a>=b)
+print(a<=b)
 
-# a=5
-# a=a+1
-# print(a)
-# a+=1 #shorthand operator for a=a+1
-# print(a)
-# a=False
-# print(not a)
-# print(a and True)
-# print(a or True)
-# print(not(5>3 and 2<4))
-# a=10
-# b=5
-# print(type(a/b))
-# a="10"
-# a=int(a) #typecasting string to integer
-# print(type(a))
-# val=bool(a) #typecasting integer to boolean
-# print(val, type(val))
-# a=input("Enter a number: ") #taking input from user
-# print("You entered", a)
-# print(type(a)) #input is always of string type
-# b=input("Enter another number: ")
-# print(a+b) #this will concatenate the two strings instead of adding them as numbers
-# a=int(a)
-# b=int(b)
-# print(a+b) #this will add the two numbers
-# a=int(input("Enter a number: "))#floating value will give an error
-# print(a)
-# a,b,c=2,3,4 #multiple assignment
-# print((a+b+c)/3) #average of three numbers
+a=5
+a=a+1
+print(a)
+a+=1 #shorthand operator for a=a+1
+print(a)
+a=False
+print(not a)
+print(a and True)
+print(a or True)
+print(not(5>3 and 2<4))
+a=10
+b=5
+print(type(a/b))
+a="10"
+a=int(a) #typecasting string to integer
+print(type(a))
+val=bool(a) #typecasting integer to boolean
+print(val, type(val))
+a=input("Enter a number: ") #taking input from user
+print("You entered", a)
+print(type(a)) #input is always of string type
+b=input("Enter another number: ")
+print(a+b) #this will concatenate the two strings instead of adding them as numbers
+a=int(a)
+b=int(b)
+print(a+b) #this will add the two numbers
+a=int(input("Enter a number: "))#floating value will give an error
+print(a)
+a,b,c=2,3,4 #multiple assignment
+print((a+b+c)/3) #average of three numbers
 '''conditional statements'''
 # age=int(input("Enter your age:"))
 # if age>=18:
