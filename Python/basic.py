@@ -8,7 +8,7 @@ isPrime=None
 print(num)
 print(type(isPrime))
 print(isPrime)
-it is a single line comment
+# it is a single line comment
 """this is 
 a multi line comment"""
 a=2
