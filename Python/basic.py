@@ -55,38 +55,38 @@ print(a)
 a,b,c=2,3,4 #multiple assignment
 print((a+b+c)/3) #average of three numbers
 '''conditional statements'''
-# age=int(input("Enter your age:"))
-# if age>=18:
-#     print("eligible to vote")
-# else:
-#     print("not eligible to vote")
-# color=input("Enter a color: ")
-# if color=="red":
-#     print("stop")
-# elif color=="yellow":
-#     print("get ready")
-# elif color=="green":
-#     print("go")
-# else:
-#     print("invalid color")
-# '''age'''
-# age=int(input("Enter your age: "))
-# if age in range(0,13):
-#     print("child")
-# elif age in range(13,20):
-#     print("teenager")
-# else:
-#     print("adult")
-# a="admin"
-# p="password123"
-# username=input("Enter your username: ")
-# password=input("Enter your password: ")
-# if username==a and password==p:
-#     print("login successful")
-# elif username!=a:
-#     print("invalid username")
-# elif password!=p:
-#     print("invalid password")
+age=int(input("Enter your age:"))
+if age>=18:
+    print("eligible to vote")
+else:
+    print("not eligible to vote")
+color=input("Enter a color: ")
+if color=="red":
+    print("stop")
+elif color=="yellow":
+    print("get ready")
+elif color=="green":
+    print("go")
+else:
+    print("invalid color")
+'''age'''
+age=int(input("Enter your age: "))
+if age in range(0,13):
+    print("child")
+elif age in range(13,20):
+    print("teenager")
+else:
+    print("adult")
+a="admin"
+p="password123"
+username=input("Enter your username: ")
+password=input("Enter your password: ")
+if username==a and password==p:
+    print("login successful")
+elif username!=a:
+    print("invalid username")
+elif password!=p:
+    print("invalid password")
 '''practice problem'''
 # n=int(input("Enter a number: "))
 # if n%2==0:#reminder=0
