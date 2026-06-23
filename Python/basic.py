@@ -417,26 +417,26 @@ words=["hello","world","python"]
 words=[word.upper() for word in words] # change the words to uppercase
 print(words)
 import json
-# json_str='{"name":"yash","age":21,"is_sigma":true}'
-# print(type(json_str))
-# py_obj=json.loads(json_str)
-# print(type(py_obj),py_obj)
-# import json
-# py_obj={
-#     "name":"yash",
-#     "age":21,
-#     "is_sigma":True,
-#     "aura_lost":None
-# }
-# json_str=json.dumps(py_obj) 
-# print(type(json_str),json_str) 
-# import json 
-# d={  
-#     "name":"yash",
-#     "age":21,a
-#     "is_sigma":True
-# }
-# with open("data.json","w") as f: 
-#     # py_obj=json.load(f)
-#     # print(type(py_obj),py_obj)
-#     json.dump(d,f,indent=4,sort_keys=True)  
+json_str='{"name":"yash","age":21,"is_sigma":true}'
+print(type(json_str))
+py_obj=json.loads(json_str)
+print(type(py_obj),py_obj)
+import json
+py_obj={
+    "name":"yash",
+    "age":21,
+    "is_sigma":True,
+    "aura_lost":None
+}
+json_str=json.dumps(py_obj) 
+print(type(json_str),json_str) 
+import json 
+d={  
+    "name":"yash",
+    "age":21,a
+    "is_sigma":True
+}
+with open("data.json","w") as f: 
+    # py_obj=json.load(f)
+    # print(type(py_obj),py_obj)
+    json.dump(d,f,indent=4,sort_keys=True)  
