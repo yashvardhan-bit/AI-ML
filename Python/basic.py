@@ -312,24 +312,24 @@ d={
 # print(d.get("name")) #returns the updated value of the specified key
 '''sets'''
 a={1,2,2,3,4,4,5}
-# print(type(s), s) #sets do not allow duplicate values
-# a={}
-# print(type(a), a) #this is an empty dictionary, not an empty set
-# a=set ()
-# print(type(a), a) #this is an empty set
- # a.add(1) #adding an element to the set
-# print(a)
-# a.remove(1) #removing an element from the set
-# print(a)
-# a.pop() #removing random element
-# print(a)
-# a.clear() #removing all elements from the set
-# print(a)
-# a={1,2,3,4,5}
-# b={4,5,6,7,8}
-# print(a.union(b))  #returns a new set that contains all the elements of both sets
-# print(a.intersection(b)) #returns a new set that contains only the common elements of both sets
-# print(a.difference(b)) #returns a new set that contains only the elements that are in
+print(type(s), s) #sets do not allow duplicate values
+a={}
+print(type(a), a) #this is an empty dictionary, not an empty set
+a=set ()
+print(type(a), a) #this is an empty set
+ a.add(1) #adding an element to the set
+print(a)
+a.remove(1) #removing an element from the set
+print(a)
+a.pop() #removing random element
+print(a)
+a.clear() #removing all elements from the set
+print(a)
+a={1,2,3,4,5}
+b={4,5,6,7,8}
+print(a.union(b))  #returns a new set that contains all the elements of both sets
+print(a.intersection(b)) #returns a new set that contains only the common elements of both sets
+print(a.difference(b)) #returns a new set that contains only the elements that are in
 info={
     ("Alice","Math"),
     ("Bob","Science"),
@@ -344,7 +344,7 @@ for tup in info:
     unique_courses.add(tup[1]) #tup[1] is the course name
 print(unique_courses)
 for name, courses in info:#unpacking the tuple into name and courses
-    # print(name, courses)
+    print(name, courses)
     if courses=="English":
         print(name)
 dict={}
@@ -437,6 +437,6 @@ d={
     "is_sigma":True
 }
 with open("data.json","w") as f: 
-    # py_obj=json.load(f)
-    # print(type(py_obj),py_obj)
+    py_obj=json.load(f)
+    print(type(py_obj),py_obj)
     json.dump(d,f,indent=4,sort_keys=True)  
