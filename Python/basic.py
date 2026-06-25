@@ -255,44 +255,44 @@ elif password!=p:
 # print("sum of {} and {} is {}".format(a,b,sum))#format function with multiple placeholders
 # print("sum of {1} and {0} is {2}".format(a,b,sum))#format function with indexes
 '''list'''
-# a=[1,2,3,4,5]
-# print(type(a) , a)
-# a[2]=10 #modifying an element of the list
-# a.append(6) #adding an element to the end of the list
-# print(a)
-# print(a[::2])
-# a.sort(reverse=True) #sorting the list in ascending order
-# print(a) #sorting the list in descending order
-# a.insert(2,15) #inserting an element at a specific index
-# print(a)
-# a.remove(15) #removing an element from the list
-# print(a)
-# a.pop(2) #removing an element from a specific index
-# print(a)
-# a.clear() #removing all elements from the list
-# print(a)
-# a=[1,2,3,4,5]
-# for i in a:
-#     print(i)
-# x=5
-# for i in a:
-#     if i==x:
-#         print("found")
-#         break
-#     i+=1
-# else:
-#     print("not found")
+a=[1,2,3,4,5]
+print(type(a) , a)
+a[2]=10 #modifying an element of the list
+a.append(6) #adding an element to the end of the list
+print(a)
+print(a[::2])
+a.sort(reverse=True) #sorting the list in ascending order
+print(a) #sorting the list in descending order
+a.insert(2,15) #inserting an element at a specific index
+print(a)
+a.remove(15) #removing an element from the list
+print(a)
+a.pop(2) #removing an element from a specific index
+print(a)
+a.clear() #removing all elements from the list
+print(a)
+a=[1,2,3,4,5]
+for i in a:
+    print(i)
+x=5
+for i in a:
+    if i==x:
+        print("found")
+        break
+    i+=1
+else:
+    print("not found")
 '''tuple'''
-# t=(1,2,3,4,5)
-# print(type(t), t)
-# # t[2]=10#tuples are immutable, we cannot modify an element of a tuple
-# # print(t)
-# sum=0
-# for ch in t:
-#     sum+=ch
-# print(sum)
-# print(t.index(3)) #returns the index of the first occurrence of 3 in the tuple
-# print(t.count(3)) #returns the number of times 3 occurs in the tuple
+t=(1,2,3,4,5)
+print(type(t), t)
+# t[2]=10#tuples are immutable, we cannot modify an element of a tuple
+# print(t)
+sum=0
+for ch in t:
+    sum+=ch
+print(sum)
+print(t.index(3)) #returns the index of the first occurrence of 3 in the tuple
+print(t.count(3)) #returns the number of times 3 occurs in the tuple
 '''dictionary'''
 d={
     "name":"yashvardhan",
@@ -300,16 +300,16 @@ d={
     "city":"pilani",
     "marks":[90,95,85]
 }
-# print(type(d), d)
-# print(d["name"]) #accessing a value using its key
-# d["age"]=20 #modifying a value using its key
-# print(d)
-# print(d.keys()) #returns all the keys of the dictionary
-# print(d.values()) #returns all the values of the dictionary
-# print(d.items()) #returns all the key-value pairs of the dictionary
-# print(d.get("name")) #returns the value of the specified key
-# d.update({"name":"yash"})
-# print(d.get("name")) #returns the updated value of the specified key
+print(type(d), d)
+print(d["name"]) #accessing a value using its key
+d["age"]=20 #modifying a value using its key
+print(d)
+print(d.keys()) #returns all the keys of the dictionary
+print(d.values()) #returns all the values of the dictionary
+print(d.items()) #returns all the key-value pairs of the dictionary
+print(d.get("name")) #returns the value of the specified key
+d.update({"name":"yash"})
+print(d.get("name")) #returns the updated value of the specified key
 '''sets'''
 a={1,2,2,3,4,4,5}
 print(type(s), s) #sets do not allow duplicate values
