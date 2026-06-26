@@ -221,39 +221,39 @@ elif password!=p:
 #     return fact
 # print(factorial(5))
 '''assignment'''
-# salary= int(input("Enter your salary: "))
-# if salary<30000:
-#     print("tax is =",salary*0.05)
-# elif salary<70000:
-#     print("tax is =",salary*0.15)
-# elif salary>70000:
-#     print("tax is =",salary*0.25)
-# i=int(input("Enter a number: "))
-# j=int(input("Enter another number: "))
-# for num in range(i,j+1):
-#     if num%2==0:
-#         print(num)
-# n=123
-# for i in str(n):
-#     print(i)
-# print(n%10,n%100//10,n//100)
-# n=str(input("Enter a number: "))
-# print(len(n))
-# a='yashvardhan'
-# print(a[1])
-# for i in a:
-#     print(i)
-# print(a[-1:0:-1])
-# print(a[::-1])
-# print(a[-1::-1])
-# print(a[-1:0])
-# a=10
-# b=20
-# sum=a+b
-# print(f"sum of {a} and {b} is : {sum}")#f function
-# print("sum is {}".format(sum))# format function
-# print("sum of {} and {} is {}".format(a,b,sum))#format function with multiple placeholders
-# print("sum of {1} and {0} is {2}".format(a,b,sum))#format function with indexes
+salary= int(input("Enter your salary: "))
+if salary<30000:
+    print("tax is =",salary*0.05)
+elif salary<70000:
+    print("tax is =",salary*0.15)
+elif salary>70000:
+    print("tax is =",salary*0.25)
+i=int(input("Enter a number: "))
+j=int(input("Enter another number: "))
+for num in range(i,j+1):
+    if num%2==0:
+        print(num)
+n=123
+for i in str(n):
+    print(i)
+print(n%10,n%100//10,n//100)
+n=str(input("Enter a number: "))
+print(len(n))
+a='yashvardhan'
+print(a[1])
+for i in a:
+    print(i)
+print(a[-1:0:-1])
+print(a[::-1])
+print(a[-1::-1])
+print(a[-1:0])
+a=10
+b=20
+sum=a+b
+print(f"sum of {a} and {b} is : {sum}")#f function
+print("sum is {}".format(sum))# format function
+print("sum of {} and {} is {}".format(a,b,sum))#format function with multiple placeholders
+print("sum of {1} and {0} is {2}".format(a,b,sum))#format function with indexes
 '''list'''
 a=[1,2,3,4,5]
 print(type(a) , a)
