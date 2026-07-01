@@ -210,16 +210,16 @@ def sum(a,b=12):
 print(sum(1)) #using default value of b
 print(sum(1,2)) #overriding default value of b
 '''lambda function'''
-# avg= lambda a,b:(a+b)/2 #anonymous function that adds two numbers
-# print(avg(12,1213))
-# sum=lambda a,b:a+b
-# print(sum(3,4))
-# def factorial(n):
-#     fact=1
-#     for i in range (1,n+1):
-#         fact*=i
-#     return fact
-# print(factorial(5))
+avg= lambda a,b:(a+b)/2 #anonymous function that adds two numbers
+print(avg(12,1213))
+sum=lambda a,b:a+b
+print(sum(3,4))
+def factorial(n):
+    fact=1
+    for i in range (1,n+1):
+        fact*=i
+    return fact
+print(factorial(5))
 '''assignment'''
 salary= int(input("Enter your salary: "))
 if salary<30000:
