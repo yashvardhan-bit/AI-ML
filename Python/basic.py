@@ -191,24 +191,24 @@ elif password!=p:
 #     sum+=i
 # print(sum)
 '''functions'''
-# def hello():
-#     print("hola")
-# hello()  #function call
-# def sum(a,b):
-#     return a+b
-# result=sum(2,3) #function call with arguments
-# print(result)
-# a=int(input("Enter a number: "))
-# b=int(input("Enter another number: "))
-# c=int(input("Enter a third number: "))
-# def avg(a,b,c):
-#     sum=a+b+c
-#     return sum/3
-# print(avg(a,b,c))
-# def sum(a,b=12):
-#     return a+b
-# print(sum(1)) #using default value of b
-# print(sum(1,2)) #overriding default value of b
+def hello():
+    print("hola")
+hello()  #function call
+def sum(a,b):
+    return a+b
+result=sum(2,3) #function call with arguments
+print(result)
+a=int(input("Enter a number: "))
+b=int(input("Enter another number: "))
+c=int(input("Enter a third number: "))
+def avg(a,b,c):
+    sum=a+b+c
+    return sum/3
+print(avg(a,b,c))
+def sum(a,b=12):
+    return a+b
+print(sum(1)) #using default value of b
+print(sum(1,2)) #overriding default value of b
 '''lambda function'''
 # avg= lambda a,b:(a+b)/2 #anonymous function that adds two numbers
 # print(avg(12,1213))
