@@ -27,7 +27,3 @@
 - Natural language processing
 - Recommendation systems
 - Predictive analytics
-
----
-
-📌 *Notes*: This file is a brief summary of ML foundations concepts. More detailed examples and code snippets can be added later.
