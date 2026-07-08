@@ -27,3 +27,26 @@
 - Natural language processing
 - Recommendation systems
 - Predictive analytics
+
+# Learning Log - July 8, 2026
+
+Today was all about digging deeper into ML foundations.  
+I went beyond the basics and explored:
+
+## Types of ML
+- Supervised Learning: training with labeled data.
+- Unsupervised Learning: finding hidden patterns.
+- Reinforcement Learning: reward-driven learning.
+
+## Supervised Learning Details
+- Regression: predicting continuous values (like house prices).
+- Classification: predicting discrete labels (spam vs. not spam).
+
+## Errors & Cost Functions
+- Error = difference between prediction and actual.
+- Cost Function = average error across dataset (MSE, cross-entropy).
+
+## Gradient Descent
+- Iterative optimization to minimize cost.
+- Learning rate controls step size.
+- Convergence Theorem: guarantees reaching a minimum under certain conditions.
