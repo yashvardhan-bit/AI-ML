@@ -63,4 +63,55 @@
   a^{(l)} = f(W^{(l)} a^{(l-1)} + b^{(l)})
   \]
 
+# Supervised Learning
+# Linear Regression
 
+## 1. Error & Cost Functions
+- **Error (single sample)**:  
+  
+
+\[
+  e^{(i)} = h_\theta(x^{(i)}) - y^{(i)}
+  \]
+
+
+
+- **Mean Squared Error (MSE)**:  
+  
+
+\[
+  J(\theta) = \frac{1}{2m} \sum_{i=1}^{m} \big(h_\theta(x^{(i)}) - y^{(i)}\big)^2
+  \]
+
+
+
+- **Cross-Entropy Loss (Classification)**:  
+  
+
+\[
+  J(\theta) = -\frac{1}{m} \sum_{i=1}^{m} \Big[ y^{(i)} \log h_\theta(x^{(i)}) + (1-y^{(i)}) \log (1-h_\theta(x^{(i)})) \Big]
+  \]
+
+
+
+---
+
+## 2. Gradient Descent
+- **Update Rule**:  
+  
+
+\[
+  \theta_j := \theta_j - \alpha \frac{\partial}{\partial \theta_j} J(\theta)
+  \]
+
+
+
+- Where:
+  - \( \alpha \) = learning rate  
+  - \( J(\theta) \) = cost function  
+  - \( \theta_j \) = parameter being updated  
+
+---
+
+## 3. Convergence Theorem (Gradient Descent)
+- If the cost function \( J(\theta) \) is **convex** and differentiable, gradient descent is guaranteed to converge to the **global minimum
