@@ -50,3 +50,55 @@ I went beyond the basics and explored:
 - Iterative optimization to minimize cost.
 - Learning rate controls step size.
 - Convergence Theorem: guarantees reaching a minimum under certain conditions.
+
+# 📘 Machine Learning Learning Log
+
+This log tracks my progress and key takeaways while working on supervised and unsupervised ML projec
+
+## 🔎 Supervised Learning
+- **Minor Project** → Applied supervised ML on a small dataset.
+- Key algorithms explored:
+  - Linear Regression
+  - Logistic Regression
+  - Decision Trees
+  - Random Forests
+- **Learning Points:**
+  - Importance of labeled data.
+  - Evaluation using accuracy, precision, recall, F1-score.
+  - Overfitting vs. generalization.
+
+---
+
+## 🌐 Unsupervised Learning
+### Algorithms Implemented
+- **KMeans.ipynb**
+  - Learned clustering by minimizing intra-cluster variance.
+  - Applied to synthetic datasets.
+- **KMeansForIris.ipynb**
+  - Used Iris dataset to visualize clustering performance.
+  - Compared clusters with actual species labels.
+- **DBSCAN.ipynb**
+  - Density-based clustering.
+  - Strength: finds arbitrary-shaped clusters.
+  - Weakness: sensitive to parameter choice (eps, minPts).
+- **hierarchical_clustering.ipynb**
+  - Built dendrograms to visualize cluster merging.
+  - Explored single-link vs. complete-link methods.
+
+### Key Insights
+- Unsupervised ML reveals hidden structures without labels.
+- Choice of algorithm depends on dataset characteristics:
+  - KMeans → spherical clusters, scalable.
+  - DBSCAN → noise handling, non-linear shapes.
+  - Hierarchical → visualization of cluster hierarchy.
+
+---
+
+## 📝 Reflections
+- Supervised ML feels more straightforward due to labeled data, but unsupervised ML is powerful for exploratory analysis.
+- Keeping `.ipynb_checkpoints` organized avoids clutter.
+- Next steps:
+  - Add PCA for dimensionality reduction.
+  - Explore clustering evaluation metrics (Silhouette Score, Davies–Bouldin Index).
+  - Document minor project results in detail.
+
