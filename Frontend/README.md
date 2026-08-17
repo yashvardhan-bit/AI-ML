@@ -55,11 +55,13 @@ Welcome! This guide walks you through the essential frontend skills you'll need 
 
 ## Recommended Learning Path
 
-1. **Start here:** Master the basics of web development and build your foundation
+1. **Start here:** Master the basics of web development and build your foundation 
 2. **Then:** Learn Python to manipulate and analyze data effectively
 3. **Next:** Study data visualization to make your insights shine
 4. **Explore:** Dive into fundamental ML algorithms and concepts
 5. **Finally:** Build real projects that combine frontend skills with ML magic
+
+
 
 ## Conclusion
 
