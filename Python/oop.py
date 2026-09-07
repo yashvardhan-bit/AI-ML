@@ -35,23 +35,23 @@ p1.cal_discounted_price(50000,10)
 p2.cal_discounted_price(p2.price,20)
 '''1.Encapsulation'''
 '''wrapping data and methods into single unit'''
-# class bankAccount:
-#     def __init__(self,name,balance,password):
-#         self.name=name#public attribute
-#         self._balance=balance#protected attribute
-#         self.__password=password#private attribute
-#     def get_password(self):
-#         return self.__password
-#     def set_password(self,new_password):
-#         self.__password=new_password
-# acc1=bankAccount("Alice",1000,"secret")
-# # print(acc1.name) #accessing public attribute
-# # # print(acc1.__password) #trying to access private attribute (will raise an error) 
-# # print(acc1._balance) #accessing protected attribute (not recommended but possible)
-# # print(acc1.get_password()) #accessing protected attribute (recommended)
-# # acc1.set_password("new_secret") #modifying private attribute using setter method
-# print(acc1.get_password()) #accessing modified private attribute
-# print(acc1._bankAccount__password) #accessing private attribute using name mangling (not recommended)
+class bankAccount:
+    def __init__(self,name,balance,password):
+        self.name=name#public attribute
+        self._balance=balance#protected attribute
+        self.__password=password#private attribute
+    def get_password(self):
+        return self.__password
+    def set_password(self,new_password):
+        self.__password=new_password
+acc1=bankAccount("Alice",1000,"secret")
+# print(acc1.name) #accessing public attribute
+# # print(acc1.__password) #trying to access private attribute (will raise an error) 
+# print(acc1._balance) #accessing protected attribute (not recommended but possible)
+# print(acc1.get_password()) #accessing protected attribute (recommended)
+# acc1.set_password("new_secret") #modifying private attribute using setter method
+print(acc1.get_password()) #accessing modified private attribute
+print(acc1._bankAccount__password) #accessing private attribute using name mangling (not recommended)
 '''2.inheritance'''
 # class employee:
 #     start_time="9:00 AM"
