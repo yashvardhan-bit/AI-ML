@@ -45,11 +45,11 @@ class bankAccount:
     def set_password(self,new_password):
         self.__password=new_password
 acc1=bankAccount("Alice",1000,"secret")
-# print(acc1.name) #accessing public attribute
-# # print(acc1.__password) #trying to access private attribute (will raise an error) 
-# print(acc1._balance) #accessing protected attribute (not recommended but possible)
-# print(acc1.get_password()) #accessing protected attribute (recommended)
-# acc1.set_password("new_secret") #modifying private attribute using setter method
+print(acc1.name) #accessing public attribute
+# print(acc1.__password) #trying to access private attribute (will raise an error) 
+print(acc1._balance) #accessing protected attribute (not recommended but possible)
+print(acc1.get_password()) #accessing protected attribute (recommended)
+acc1.set_password("new_secret") #modifying private attribute using setter method
 print(acc1.get_password()) #accessing modified private attribute
 print(acc1._bankAccount__password) #accessing private attribute using name mangling (not recommended)
 '''2.inheritance'''
