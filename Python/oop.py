@@ -84,15 +84,15 @@ print(a1.start_time,a1.end_time,a1.role,a1.salary)
 class Teacher:
     def __init__(self,salary):
         self.salary=salary
-# class Student:
-#     def __init__(self,gpa):
-#         self.gpa=gpa
-# class TA(Teacher,Student):
-#     def __init__(self,salary,gpa):
-#         super().__init__(salary) #calling the constructor of Teacher class to initialize salary attribute
-#         Student.__init__(self,gpa) #calling the constructor of Student class to initialize gpa attribute
-# ta1=TA(15000,9.0)
-# print(ta1.salary,ta1.gpa)
+class Student:
+    def __init__(self,gpa):
+        self.gpa=gpa
+class TA(Teacher,Student):
+    def __init__(self,salary,gpa):
+        super().__init__(salary) #calling the constructor of Teacher class to initialize salary attribute
+        Student.__init__(self,gpa) #calling the constructor of Student class to initialize gpa attribute
+ta1=TA(15000,9.0)
+print(ta1.salary,ta1.gpa)
 '''3.abstraction'''
 '''hiding the internal details and showing only the functionality to the user'''
 # from abc import ABC,abstractmethod
