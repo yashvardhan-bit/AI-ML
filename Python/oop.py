@@ -53,22 +53,22 @@ acc1.set_password("new_secret") #modifying private attribute using setter method
 print(acc1.get_password()) #accessing modified private attribute
 print(acc1._bankAccount__password) #accessing private attribute using name mangling (not recommended)
 '''2.inheritance'''
-# class employee:
-#     start_time="9:00 AM"
-#     end_time="5:00 PM"
-#     def change_time(self,new_end_time):
-#         self.end_time=new_end_time
-# class Teacher(employee):
-#     def __init__(self,subject):
-#         self.subject=subject
-# class Role(employee):
-#     def __init__(self,role_name):
-#         self.role_name=role_name
-# t1=Teacher("Math")
-# t1.change_time("6:00 PM") #inherited method from employee class
-# print(t1.start_time,t1.end_time,t1.subject) #inherited attributes from employee class
-# t2=Role("manager")
-# print(t2.start_time,t2.end_time,t2.role_name) #inherited attributes from employee class
+class employee:
+    start_time="9:00 AM"
+    end_time="5:00 PM"
+    def change_time(self,new_end_time):
+        self.end_time=new_end_time
+class Teacher(employee):
+    def __init__(self,subject):
+        self.subject=subject
+class Role(employee):
+    def __init__(self,role_name):
+        self.role_name=role_name
+t1=Teacher("Math")
+t1.change_time("6:00 PM") #inherited method from employee class
+print(t1.start_time,t1.end_time,t1.subject) #inherited attributes from employee class
+t2=Role("manager")
+print(t2.start_time,t2.end_time,t2.role_name) #inherited attributes from employee class
 # class employee:
 #     start_time="9:00 AM"
 #     end_time="5:00 PM"
