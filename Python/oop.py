@@ -69,21 +69,21 @@ t1.change_time("6:00 PM") #inherited method from employee class
 print(t1.start_time,t1.end_time,t1.subject) #inherited attributes from employee class
 t2=Role("manager")
 print(t2.start_time,t2.end_time,t2.role_name) #inherited attributes from employee class
-# class employee:
-#     start_time="9:00 AM"
-#     end_time="5:00 PM"
-# class admin(employee):
-#     def __init__(self,role):
-#         self.role=role
-# class accountant(admin):
-#     def __init__(self,salary,role):
-#         self.salary=salary
-#         super().__init__(role) #calling the constructor of admin class to initialize role attribute
-# a1=accountant(24000,"CA")
-# print(a1.start_time,a1.end_time,a1.role,a1.salary)
-# class Teacher:
-#     def __init__(self,salary):
-#         self.salary=salary
+class employee:
+    start_time="9:00 AM"
+    end_time="5:00 PM"
+class admin(employee):
+    def __init__(self,role):
+        self.role=role
+class accountant(admin):
+    def __init__(self,salary,role):
+        self.salary=salary
+        super().__init__(role) #calling the constructor of admin class to initialize role attribute
+a1=accountant(24000,"CA")
+print(a1.start_time,a1.end_time,a1.role,a1.salary)
+class Teacher:
+    def __init__(self,salary):
+        self.salary=salary
 # class Student:
 #     def __init__(self,gpa):
 #         self.gpa=gpa
