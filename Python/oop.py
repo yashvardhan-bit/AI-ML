@@ -95,19 +95,19 @@ ta1=TA(15000,9.0)
 print(ta1.salary,ta1.gpa)
 '''3.abstraction'''
 '''hiding the internal details and showing only the functionality to the user'''
-# from abc import ABC,abstractmethod
-# class Animal(ABC):
-#     @abstractmethod
-#     def make_sound(self):
-#         pass
-# class Lion(Animal):
-#     def make_sound(self):
-#         print("roar")
-# class Dog(Animal):
-#     def make_sound(self):
-#         print("bark")
-# lion=Lion()
-# lion.make_sound()
+from abc import ABC,abstractmethod
+class Animal(ABC):
+    @abstractmethod
+    def make_sound(self):
+        pass
+class Lion(Animal):
+    def make_sound(self):
+        print("roar")
+class Dog(Animal):
+    def make_sound(self):
+        print("bark")
+lion=Lion()
+lion.make_sound()
 '''4.polymorphism'''
 # class Shape:
 #     def area(self):
